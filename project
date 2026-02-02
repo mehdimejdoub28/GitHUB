@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieDB - Movie Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1><i class="movie-icon">🎬</i> MovieDB</h1>
+            <p>Browse and discover movies</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Search and Filter Section -->
+        <section class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for movies...">
+            </div>
+            
+            <div class="filter-box">
+                <select id="ratingFilter">
+                    <option value="0">All Ratings</option>
+                    <option value="7">7+ Stars</option>
+                    <option value="8">8+ Stars</option>
+                    <option value="9">9+ Stars</option>
+                </select>
+            </div>
+        </section>
+<!-- Movie 1 -->
+        <div class="movie-card">
+            <h2 class="movie-title">1. The Shawshank Redemption (1994)</h2>
+            <img src="shawshank.jfif" alt="">
+            <div class="movie-info">
+                <div class="info-item">
+                    <span class="info-label">Rating:</span> ⭐ 9.3/10
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Director:</span> Frank Darabont
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Genre:</span> Drama
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration:</span> 142 min
+                </div>
+            </div>
+            <p class="movie-description">
+                <strong>Description:</strong> Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.
+            </p>
+        </div>
+
+        <!-- Movie 2 -->
+        <div class="movie-card">
+            <h2 class="movie-title">2. The Godfather (1972)</h2>
+            <img src="godfather.jfif" alt="">
+            <div class="movie-info">
+                <div class="info-item">
+                    <span class="info-label">Rating:</span> ⭐ 9.2/10
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Director:</span> Francis Ford Coppola
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Genre:</span> Crime, Drama
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration:</span> 175 min
+                </div>
+            </div>
+            <p class="movie-description">
+                <strong>Description:</strong> The aging patriarch of an organized crime dynasty transfers control to his reluctant son.
+            </p>
+        </div>
+
+        <!-- Movie 3 -->
+        <div class="movie-card">
+            <h2 class="movie-title">3. The Dark Knight (2008)</h2>
+            <img src="dark knight.jfif" alt="">
+            <div class="movie-info">
+                <div class="info-item">
+                    <span class="info-label">Rating:</span> ⭐ 9.0/10
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Director:</span> Christopher Nolan
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Genre:</span> Action, Crime, Drama
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration:</span> 152 min
+                </div>
+            </div>
+            <p class="movie-description">
+                <strong>Description:</strong> When the menace known as the Joker wreaks havoc on Gotham City, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+            </p>
+        </div>
+
+        <!-- Movie 4 -->
+        <div class="movie-card">
+            <h2 class="movie-title">4. Pulp Fiction (1994)</h2>
+            <img src="pulp.jfif" alt="">
+            <div class="movie-info">
+                <div class="info-item">
+                    <span class="info-label">Rating:</span> ⭐ 8.9/10
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Director:</span> Quentin Tarantino
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Genre:</span> Crime, Drama
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration:</span> 154 min
+                </div>
+            </div>
+            <p class="movie-description">
+                <strong>Description:</strong> The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption.
+            </p>
+        </div>
+
+    
+        <div class="movie-card">
+            <h2 class="movie-title">5. Forrest Gump (1994)</h2>
+            <img src="forrest.jfif" alt="">
+            <div class="movie-info">
+                <div class="info-item">
+                    <span class="info-label">Rating:</span> ⭐ 8.8/10
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Director:</span> Robert Zemeckis
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Genre:</span> Drama, Romance
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration:</span> 142 min
+                </div>
+            </div>
+            <p class="movie-description">
+                <strong>Description:</strong> The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75.
+            </p>
+        </div>
+
+        <div class="movie-card">
+            <h2 class="movie-title">6. Inception (2010)</h2>
+            <img src="inception.jfif" alt="">
+            <div class="movie-info">
+                <div class="info-item">
+                    <span class="info-label">Rating:</span> ⭐ 8.8/10
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Director:</span> Christopher Nolan
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Genre:</span> Action, Adventure, Sci-Fi
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration:</span> 148 min
+                </div>
+            </div>
+            <p class="movie-description">
+                <strong>Description:</strong> A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.
+            </p>
+        </div>
+
+        <!-- Movie 7 -->
+        <div class="movie-card">
+            <h2 class="movie-title">7. The Matrix (1999)</h2>
+            <img src="thematrix.jfif" alt="">
+            <div class="movie-info">
+                <div class="info-item">
+                    <span class="info-label">Rating:</span> ⭐ 8.7/10
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Director:</span> Lana & Lilly Wachowski
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Genre:</span> Action, Sci-Fi
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration:</span> 136 min
+                </div>
+            </div>
+            <p class="movie-description">
+                <strong>Description:</strong> A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+            </p>
+        </div>
+
+        <!-- Movie 8 -->
+        <div class="movie-card">
+            <h2 class="movie-title">8. Interstellar (2014)</h2>
+            <img src="interstellar.jfif" alt="">
+            <div class="movie-info">
+                <div class="info-item">
+                    <span class="info-label">Rating:</span> ⭐ 8.6/10
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Director:</span> Christopher Nolan
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Genre:</span> Adventure, Drama, Sci-Fi
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration:</span> 169 min
+                </div>
+            </div>
+        <section class="movie-section">
+            <h2>Popular Movies</h2>
+            <div id="moviesList" class="movie-grid">
+                <!-- Movies will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Movie Details Section -->
+        <section class="details-section">
+            <h2>Movie Details</h2>
+            <div id="movieDetails" class="movie-details">
+                <p>Click on any movie card to see details here</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>MovieDB &copy; 2023 | Simple Movie Database</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
